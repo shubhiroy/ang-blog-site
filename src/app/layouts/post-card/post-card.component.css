@@ -1,0 +1,10 @@
+.card {
+    width: 22rem;
+}
+.card-body {
+    padding: 0;
+}
+
+.card-title {
+    color: var(--primary-color);
+}
