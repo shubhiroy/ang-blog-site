@@ -1,1 +1,13 @@
-<p>footer works!</p>
+<footer class="text-center fixed-bottom">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="my-2">
+                <a class="site-logo">ANG-BLOG</a>
+            </div>
+            <ul class="nav justify-content-center my-1">
+                <li class="nav-item mx-2" *ngFor="let footerlink of footerlinks"><a class="nav-link" href="#">{{footerlink}}</a></li>
+            </ul>
+            <div class="">Copyright &#169; 2023-24 Angular Blogsite</div>
+        </div>
+    </div>
+</footer>

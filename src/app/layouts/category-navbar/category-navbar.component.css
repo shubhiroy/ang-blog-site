@@ -1,0 +1,9 @@
+.navbar {
+    background-color: var(--navbar-footer-color);
+}
+
+a {    
+    color: var(--primary-color);
+    font-size: 14px;
+    text-transform: uppercase;
+}

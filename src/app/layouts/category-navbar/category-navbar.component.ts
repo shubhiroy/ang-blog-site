@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./category-navbar.component.css']
 })
 export class CategoryNavbarComponent {
-
+  navlinks: Array<string> = [
+    "DESIGN",
+    "INSPIRATION",
+    "SPORTS",
+    "POLITICS",
+    "FASHION",
+    "GENERAL KNOWLEDGE",
+    "GRAPHICS"
+  ]
 }
