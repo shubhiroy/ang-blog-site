@@ -8,7 +8,8 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { TermsAndConditionsComponent } from './pages/terms-and-conditions/terms-and-conditions.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
+  // {path: '', component: HomeComponent},
+  {path: '', component: SinglePostComponent},
   {path: 'category', component: SingleCategoryComponent},
   {path: 'post', component: SinglePostComponent},
   {path: 'about', component: AboutUsComponent},

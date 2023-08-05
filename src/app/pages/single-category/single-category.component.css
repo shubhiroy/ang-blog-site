@@ -1,0 +1,47 @@
+.title {
+    background-color: var(--primary-color);
+    color: white;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.title sub {
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+
+.main-section .post {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.main-section .post:hover {
+    scale: 1.04;
+}
+
+
+.load_button {
+    text-transform: uppercase;
+    padding: 0.7rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+.load_button:active {
+    scale: 0.9;
+}

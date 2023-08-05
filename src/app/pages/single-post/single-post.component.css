@@ -1,0 +1,30 @@
+.single-post {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.single-post p {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.post-img {
+    margin-bottom: 0.5rem;
+    max-height: 25rem;
+}
+
+.post-spec {
+    font-size: 1rem;
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
+
+.similar-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.similar-post * {
+    margin-bottom: 1rem;
+}
