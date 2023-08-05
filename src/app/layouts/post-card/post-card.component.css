@@ -1,10 +1,22 @@
 .card {
-    width: 22rem;
+    width: 21rem;
+    text-align: left;
 }
 .card-body {
     padding: 0;
 }
 
+.post-specs {
+    font-size: 0.6rem;
+}
+
 .card-title {
     color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 0.75rem;
+    font-weight: lighter;
 }

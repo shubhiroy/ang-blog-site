@@ -1,0 +1,35 @@
+.featured-section {
+    background-color: var(--primary-color);
+}
+
+.featured-section h3 {
+    color: white;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+}
+
+.featured-section p {
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 100;
+}
+
+.featured-posts *:hover {
+    scale: 1.008;
+}
+
+.main-section h3 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.main-section .post {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.main-section .post:hover {
+    scale: 1.04;
+}

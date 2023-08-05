@@ -1,7 +1,13 @@
 <app-header></app-header>
 <app-category-navbar></app-category-navbar>
 
-<app-post-card></app-post-card>
-<app-subscription-form></app-subscription-form>
+<div class="app-body">
+  <div class="main-section">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="container">
+    <app-subscription-form></app-subscription-form>
+  </div>
+</div>
 
 <app-footer></app-footer>
