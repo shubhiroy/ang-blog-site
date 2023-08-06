@@ -34,3 +34,7 @@ form {
     font-size: 15px;
     background-color: var(--primary-color);
 }
+
+.btn-sub:active {
+    scale: 0.9;
+}

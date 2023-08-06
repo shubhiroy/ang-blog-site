@@ -31,17 +31,3 @@
 .main-section .post:hover {
     scale: 1.04;
 }
-
-
-.load_button {
-    text-transform: uppercase;
-    padding: 0.7rem;
-    border: none;
-    background-color: var(--primary-color);
-    color: white;
-    letter-spacing: 0.1rem;
-}
-
-.load_button:active {
-    scale: 0.9;
-}

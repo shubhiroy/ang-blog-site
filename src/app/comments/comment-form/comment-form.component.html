@@ -1,1 +1,25 @@
-<p>comment-form works!</p>
+<form class="p-5 my-5 shadow-effect">
+  <fieldset>
+    <legend class="mb-0 comment-form-title">Leave a comment</legend>
+    <p class="mb-4 comment-form-sub">You can leave a comment using this form</p>
+    <div class="mb-4">
+      <label for="name" class="form-label fs-6">Name</label>
+      <input
+        type="text"
+        id="name"
+        class="form-control shadow-effect"
+        placeholder="Enter your name here"
+      />
+    </div>
+    <div class="mb-4">
+      <label for="comment" class="form-label fs-6">Comment</label>
+      <textarea
+        id="name"
+        class="form-control shadow-effect"
+        rows="5"
+        placeholder="Add your comment here"
+      ></textarea>
+    </div>
+    <button type="submit" class="btn-sub">Add Comment</button>
+  </fieldset>
+</form>
